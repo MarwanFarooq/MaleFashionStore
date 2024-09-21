@@ -1,0 +1,31 @@
+1-sign in page 
+1-1= creatnew acc
+wait for data?
+-----------------------------------------
+1-shop page 
+1-2= need send the data to cart page by click the button
+{myproducts.length == 0 ? (
+        <img
+          width={"40%"}
+          src="https://male-fashion-ten.vercel.app/static/media/empty-shopping.a10c4f68e1ba633358c1.jpg"
+          alt=""
+        />
+      ) : (
+        myproducts.map((info) => (
+          <div className="card w-96 bg-base-100 shadow-xl image-full">
+            <figure>
+              <img src={info.image} alt="Shoes" />
+            </figure>
+            <div className="card-body">
+              <h2 className="card-title">{info.title}</h2>
+              {/* <p>{prod.description}</p> */}
+              <div className="card-actions justify-end">
+                <button className="btn btn-primary">Buy Now</button>
+              </div>
+            </div>
+          </div>
+        ))
+      )}
+pandinng
+---------------------------------------------------
+log in with data=>

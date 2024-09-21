@@ -1,0 +1,17 @@
+.bg {
+  width: 100%;
+  background-image: url("https://male-fashion-ten.vercel.app/static/media/about-us.05b80316a13651a25137.jpg");
+  height: 5em;
+  background-size: cover;
+
+  background-attachment: fixed;
+}
+.main {
+  width: 100%;
+  height: 80vh;
+  background-image: url("https://male-fashion-ten.vercel.app/static/media/hero-1.c081bcff664751bf4f02.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 3em;
+  margin-bottom: 6em;
+}
